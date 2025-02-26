@@ -1,0 +1,105 @@
+body {
+  font-family: Monospace;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1c1c1c;
+}
+
+h1 {
+  color: #a3a353;
+  font-weight: bolder;
+  font-size: 48px;
+}
+
+.break-box {
+  font-size: 32px;
+  color: #adadad;
+  margin-bottom: 15px;
+}
+
+.break-time {
+  font-size: 52px;
+  color: #dbdb7b;
+}
+
+.break-buttons {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.break-buttons button {
+  font-size: 24px;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: #8f8800;
+  color: #e6e6e6;
+  cursor: pointer;
+  transition: background-color 0.3s, color: 0.3s;
+}
+
+.break-buttons button:hover {
+  background-color: #5c5700;
+}
+
+.timer-buttons button {
+  font-size: 24px;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: #8f8800;
+  color: #e6e6e6;
+  cursor: pointer;
+  transition: background-color 0.3s, color: 0.3s;
+}
+
+.timer-buttons button:hover {
+  background-color: #5c5700;
+}
+
+
+.timer-controls button {
+  font-size: 24px;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: #8f8800;
+  color: #e6e6e6;
+  cursor: pointer;
+  transition: background-color 0.3s, color: 0.3s;
+}
+
+.timer-controls button:hover {
+  background-color: #5c5700;
+}
+
+
+#timebox {
+  border: 5px solid #fff98a;
+  border-radius: 20px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #454545;
+}
+
+
+.timer-controls {
+  margin: 50px 0 0 0;
+}
+
+.timer-label {
+  font-size: 36px;
+  color: #dbdb7b;
+
+}
+
+.current-time {
+  font-size: 64px;
+  color: yellow;
+}
