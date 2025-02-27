@@ -1,0 +1,56 @@
+body{
+  background-color: #878686;
+}
+
+#switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #00b831;
+}
+
+.slidebuttonoff {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  background-color: grey;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.slidebuttonoff {
+  transform: translateX(24px);
+}
+
+
+
+#app {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.drum, #drum-button {
+  font-size: 28px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-color: #82d197;
+  color: white;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#volume {
+  width: 30%;
+  margin-top: 5px;
+}
+
+#window {
+  margin-top: 40px;
+  width: 25%;
+}

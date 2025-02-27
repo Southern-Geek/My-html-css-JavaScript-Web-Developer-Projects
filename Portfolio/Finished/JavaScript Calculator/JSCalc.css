@@ -1,0 +1,37 @@
+#calculator {
+  width: 360px;
+  margin: auto;
+  text-align: center;
+}
+
+#display {
+  height: 200px;
+  font-size: 96px;
+  border: 4px solid grey;
+  margin: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+}
+
+button {
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  margin: 50px;
+  cursor: pointer;
+}
+
+.AC, .factor, .equals {
+  background-color: yellow;
+}
+
+.zer {
+  width: 260px;
+}
+
+.num-calc {
+  background-color: black;
+  color: white;
+}
